@@ -784,3 +784,21 @@ footer span a:hover{
     font-size: 40px;
     
 }
+.icon>div>a>img{
+    /* border: 1px solid black; */
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 25px;
+    margin: 15px;
+}
+.icon>div>a>img:hover{
+    rotate: 180deg;
+}
+
+.icon{
+    /* width: 600px;
+    margin-left: 600px; */
+    /* border: 1px solid black; */
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 20px;
+}
