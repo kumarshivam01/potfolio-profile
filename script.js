@@ -71,3 +71,28 @@ $(document).ready(function(){
         }
     });
 });
+
+// *******************************************
+
+// const sendEmail = (e) => {
+//     e.preventDefault();
+
+//     emailjs
+//   .sendForm(
+//   // write your own id here generate by going on emailjs-->service id, tempelete id 1:50:00,user id
+//   "service_78fsvrx",
+//   "template_pglijq8",
+//   form.current,
+//   "piCa0oCX2nSer1d1v"
+// )
+//       .then(
+//         (result) => {
+//           console.log(result.text);
+//           setDone(true);
+//           form.reset();
+//         },
+//         (error) => {
+//           console.log(error.text);
+//         }
+//       );
+//   };
