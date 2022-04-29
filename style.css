@@ -758,7 +758,7 @@ footer span a:hover{
     border-radius: 10px;
 }
 .project-details>div>button:hover{
-    background-color: black;
+    background-color: blue;
 }
 .project-details>div>button>a{
     color: white;
